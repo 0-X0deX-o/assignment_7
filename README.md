@@ -8,3 +8,14 @@ BUILD SOMETHING F%&*ING AWESOME
 
 
 > use the pygame project to get ideas for creating a python project
+
+
+
+
+
+the output should be similar to this
+
+[16:00 - 16:45] -> TASK: This task 
+[16:45 - 17:00] -> TASK: That task
+
+# inputted area at the bottom
