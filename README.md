@@ -15,7 +15,9 @@ BUILD SOMETHING F%&*ING AWESOME
 
 the output should be similar to this
 
-[16:00 - 16:45] -> TASK: This task 
+[16:00 - 16:45] -> TASK: This task\n 
 [16:45 - 17:00] -> TASK: That task
 
-# inputted area at the bottom
+
+
+# inputted area at the bottom to expand a task to a set of subtasks
