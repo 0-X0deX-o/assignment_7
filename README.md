@@ -15,9 +15,19 @@ BUILD SOMETHING F%&*ING AWESOME
 
 the output should be similar to this
 
-[16:00 - 16:45] -> TASK: This task\n 
+[16:00 - 16:45] -> TASK: This task 
+
 [16:45 - 17:00] -> TASK: That task
 
 
 
 # inputted area at the bottom to expand a task to a set of subtasks
+List Schedule Information
+  -a --add-task 
+  -v --view-task-substasks 
+
+# create a startup menu
+  startup menu elements
+  -pretty-column/table-print
+
+# use sqlmap or another great python tool to get on idea of the file structure
