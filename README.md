@@ -11,14 +11,11 @@ BUILD SOMETHING F%&*ING AWESOME
 
 >auto generate routine
 
-
-
-
 the output should be similar to this
 
-[16:00 - 16:45] -> TASK: This task 
+[16:00 - 16:45] -> TASK: [this task]
 
-[16:45 - 17:00] -> TASK: That task
+[16:45 - 17:00] -> TASK: [that task]
 
 
 # start workout submenu
