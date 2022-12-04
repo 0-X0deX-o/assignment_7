@@ -1,4 +1,7 @@
 # assignment_7
+
+Due 12/9/22
+
 assignment 7 of COM S 127 at ISU
 
 
