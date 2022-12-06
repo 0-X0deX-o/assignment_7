@@ -20,6 +20,22 @@ the output should be similar to this
 
 [16:45 - 17:00] -> TASK: [that task]
 
+# create a notes database to forganize your notes
+
+
+# Time tracker
+one button, one character log for an activity 
+abiliyty to edit notes of an entry afterwards
+  - serialization
+
+
+
+
+# School submenu
+what assignments are due by class how many days, hours, minutes until due
+exams " "
+lecture and study check list
+
 
 # start workout submenu
   run
@@ -30,8 +46,14 @@ the output should be similar to this
        vitals?
        strengh
     
+
   strength
-  
+# water intake tracker
+
+# calories intake tracker
+
+# vitals tracker
+
  
  
  xml? html?
@@ -49,3 +71,8 @@ List Schedule Information
   -pretty-column/table-print
 
 # use sqlmap or another great python tool to get on idea of the file structure
+
+
+create a stopwatch in python
+
+serialize data before saving

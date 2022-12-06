@@ -1,0 +1,2 @@
+entry,date,age,weight pnds,bmi,bf%,bf pnds,lbm%,lbm pnds
+1,[12/2/2022],186.1,25.2,.159,29.59,.841,156.51

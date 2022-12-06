@@ -1,144 +1,22 @@
 # this is due 12/9
-# D - 7 Days
-import datetime
-
-'''
-    water intake calculator
-'''
-
-water_requirements = [
-    None,
-    224,
-    224,
-    224,
-    224,
-    224,
-    192,
-    128
-]
-# water_remaining = 0
-water_consumed = 0
-water_log = []
-
-'''
-    Calorie intake calculator
-'''
-
-
+# D - 5 Days
+# remeber to use the main function
 # primary calculator function
 
-class Log:
-    pass
-#
-
-def macros(cals, macro_type):
-    multplier = 0
-    if macro_type == fat:
-        multplier = 9
-    else:
-        multplier = 4
-    return cals * multplier
 
 '''
     exercise specific functions
 '''
 
-days = [
-    None,
-    'Monday',
-    'Tuesday',
-    'Wednesday',
-    'Thursday',
-    'Friday',
-    'Saturday',
-    'Sunday'
-]
-
-weeks = {
-    1: None,
-    2: None,
-    3: None,
-    4: None,
-    5: None,
-    6: None,
-    7: None,
-    8: None,
-    9: None,
-    10: None,
-    11: None,
-    12: None,
-    13: None,
-    14: None,
-    15: None,
-    16: None,
-    17: None,
-    18: None,
-    19: None,
-    20: None,
-    21: None,
-    22: None,
-    23: None,
-    24: None,
-    25: None,
-    26: None,
-    27: None,
-    28: None,
-    29: None,
-    30: None,
-    31: None,
-    32: None,
-    33: None,
-    34: None,
-    35: None,
-    36: None,
-    37: None,
-    38: None,
-    39: None,
-    40: None,
-    41: None,
-    42: None,
-    43: None,
-    44: None,
-    45: None,
-    46: None,
-    47: None,
-    48: None,
-    49: None,
-    50: None,
-    51: None,
-    52: None
-}
-
-months = [
-    None,
-    'January',
-    'February',
-    'March',
-    'April',
-    'May',
-    'June',
-    'July',
-    'August',
-    'September',
-    'October',
-    'November',
-    'December'
-]
-
 '''
 workouts = {
     wk
     1: {}
+    weaponized witchcraft -> you are going to hell
 }
 '''
 
 # import date/time
-def body_fat_log_addend(date, time,tbw, perc, log):
-    bf_pounds = '{:.2f}'.format(perc * tbw) + ' #'
-    bf_perc = '{:.2f}'.format(perc) + '%'
-    output_string = f'{date} -  {time}: {bf_perc} body fat percentage -> {bf_pounds} body fat'
-    return log.append(output_string)
-
 
 def weekly_training_session_checker(year, month, day, workout_weeks_list):
     week_ind = datetime.date(year, month, day).isocalendar().week
@@ -343,25 +221,6 @@ one_RM_log {
     # date:[excercise,lift]
 }
 
-
-def water_tracker(ounces, water_consumed, water_log, year, month, day, requirements):
-    year = datetime.datetime.now().year
-    month = datetime.datetime.now().month
-    date = datetime.datetime.now().day
-    hour = datetime.datetime.now().hour
-    minute = datetime.datetime.now().minute
-    second = datetime.datetime.now().second
-    day = datetime.date(year, month, day).isocalendar().weekday
-    if water_log[len(water_log)-1][1] > date:
-        water_consumed = 0
-        requirements = water_reguirements[day]
-    water_consumed += ounces
-    remaining = requirements - water_consumed
-    log_entry = water_log.push([month,date,hour,minute,second,day,water_consumed,remaining])
-    print(f'ADDED: [{hour}:{minute} -> {ounces} oz. -> {remaining} oz. remaining]')
-    return water_log, water_consumed, remaining
-    
-
 """
     calorie_log = []
     calorie macro intake
@@ -371,22 +230,6 @@ def water_tracker(ounces, water_consumed, water_log, year, month, day, requireme
     days since started diet
 """
 # > just started
-def calorie_tracker(calories, macro, year, month, day, requirements):
-    year = datetime.datetime.now().year
-    month = datetime.datetime.now().month
-    date = datetime.datetime.now().day
-    hour = datetime.datetime.now().hour
-    minute = datetime.datetime.now().minute
-    second = datetime.datetime.now().second
-    day = datetime.date(year, month, day).isocalendar().weekday
-    if calorie_log[][] > date:
-         = 0
-        requirements = water_reguirements[day]
-    water_consumed += ounces
-    remaining = requirements - water_consumed
-    log_entry = water_log.push([month,date,hour,minute,second,day,water_consumed,remaining])
-    print(f'ADDED: [{hour}:{minute} -> {ounces} oz. -> {remaining} oz. remaining]')
-    return water_log, water_consumed, remaining
 
 '''
     Routine definintions
