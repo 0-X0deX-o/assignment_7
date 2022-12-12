@@ -3,7 +3,7 @@ from conversion import pounds_to_kilograms, kilograms_to_pounds, calories_to_gra
 from vitals_log import load_last_log_entry, compute_age
 
 # This takes calorie input and outputs the lines to a csv file
-
+# calories burned eqn = MET * weight_kg = cal/hour
 meal = {
     'fat':[0,0],
     'carbs':[0,0],

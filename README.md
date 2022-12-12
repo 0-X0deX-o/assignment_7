@@ -76,3 +76,10 @@ List Schedule Information
 create a stopwatch in python
 
 serialize data before saving
+
+need to create a requirements file
+
+need to study sorting, binary tree, binary searches
+
+
+need to study python list methods 
