@@ -1,5 +1,5 @@
 from datetime import datetime, timedelta
-import pickle, calendar
+import pickle 
 def help():
     '''
     NAME
@@ -55,7 +55,7 @@ def print_activity_tracker_menu():
     print('Type "help" for more information')
     
 def transition_menu():
-    print('Choose an option: -s, -e, -q')
+    print('Choose an option: -s, -e, -q, -c')
     return carriage_return()
 
 def carriage_return():
@@ -97,6 +97,13 @@ def menu_loop(input_args):
                 pickle.dump(entry, f)
                 f.close()
             print('Log cleared')
+            transition_menu()
+
+        elif input_args == '-c' or input_args == 'clear':
+            with open('tasks.log', 'w') as f:
+                f.write('')
+                f.close()
+            print('Text log cleared')
             transition_menu()
 
         elif input_args == '-v' or input_args == '--version':

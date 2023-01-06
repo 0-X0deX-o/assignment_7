@@ -52,8 +52,8 @@ MR_definition  = '''
         8m shave
         2m shower
         4m moisturize, teeth, other hygine
-            30 min strictly reading eloquent javascript
-            22.5 VR2 
+    30 min strictly reading eloquent javascript
+    22.5 VR2 
 1h
     45 minute programming challenge while watching bloomberg to prep for the trading day
     15 minute prep for the day
